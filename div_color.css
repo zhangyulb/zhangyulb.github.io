@@ -1,0 +1,19 @@
+#mainBlock {
+	background-color: red;
+}
+
+#header {
+	background-color: green;
+}
+
+#menu {
+	background-color: grey;
+}
+
+div#menu > ul li {
+	/*background-color: yellow;*/
+}
+
+#mainText {
+	background-color: blue;
+}
