@@ -107,19 +107,19 @@ div#menu > ul li:hover {
 }
 
 .post-container {        
-    overflow: auto;
-	margin-bottom: 10px
+    	overflow: auto;
+	margin-bottom: 15px
 }
 .post-thumb {
 	margin-left: 20px;
-    float: left
+    	float: left
 }
 .post-thumb img {
     display: block
 }
 .post-content {
 	margin-top: 0px;
-    margin-left: 230px;
+    	margin-left: 230px;
 	margin-top: -4px;
 	text-align: left;
 	line-height: 150%;	
