@@ -1,0 +1,10 @@
+Yu Zhang is a senior research scientist at SenseTime, where he works on
+computer vision and machine learning. He also serves as a visiting researcher
+at CVTEAM led by Prof. Jia Li, Beihang University. He received PhD in Computer 
+Science from Beihang University, Berkeley in 2018, where he was advised by
+Qinping Zhao and Jia Li, and he received BSc in Computer Science from the
+Beihang University in 2012. He received the Outstanding Doctorial Dissertation 
+Awards of Beihang University in 2019, the National Graduate Scholarship in
+2015, the Best Paper Award of Computational Graphics International (CGI) in
+2018, and the Best Paper Award of IEEE International Conference on Multimedia 
+Big Data (BigMM) in 2015.

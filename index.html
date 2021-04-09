@@ -1,178 +1,740 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-		<script src="https://code.jquery.com/jquery-latest.js"></script>
-		<script src="https://www.bitstorm.org/jquery/color-animation/jquery.animate-colors-min.js"></script>
-		 <link rel="stylesheet" type="text/css" href="style.css"> 
-		<!-- <link rel="stylesheet" type="text/css" href="div_color.css"> -->
-<!--		<link rel="stylesheet" type="text/css" href="ubuntu-style.css">
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'> -->
-		
-<!--		<link rel="stylesheet" type="text/css" href="grumpy-style.css">-->
-<!--		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>-->
-		
-<!--		<link rel="stylesheet" type="text/css" href="merri-style.css">-->
-<!--		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>-->
-		
-		<title>Welcome to Yu Zhang's homepage</title>
-	</head>
-	<body>
-		
-		<div id="mainBlock">
-			<div id="header">
-				<h1>
-					Yu Zhang
-				</h1>
-				<h2>
-					Rethink, Refactor, and Research
-				</h2>
-			</div>
-			<div id="menu">
-				<ul>
-					<a href="#" id="aboutButton"><li>About</li></a>
-					<a href="#" id="pubButton"><li>Publications</li></a>
-					<a href="#" id="actButton"><li>Activities</li></a>
-					<a href="#" id="contactButton"><li>Contact</li></a>
-				</ul>
-			</div>
-			<div class="mainText" id="about">
-				<h3>About</h3>
-				<p align=left>
-					Currently I work as a senior researcher at SenseTime Research, where I collaborate with <a href="http://www.jimmyren.com"> Dr. Jimmy Ren</a>. Meanwhile, I also do my postdoctorial research under the joint supervision from <a href="http://www.ee.cuhk.edu.hk/~xgwang/"> Prof. Xiaogang Wang</a> and <a href="http://www.liuyebin.com/"> Prof. Yebin Liu</a>, and serve as a visiting researcher at CVTEAM led by <a href="http://cvteam.net/members/lijia/upload/index.html"> Prof. Jia Li</a>. I received my PhD degree from <a href="https://www.buaa.edu.cn/info/1602/1484.htm">VRLab, Beihang University</a>, supervised by <a href="https://www.buaa.edu.cn/info/1544/2012.htm">Prof. Qinping Zhao</a> and Prof. Bin Zhou. I obtained B.Eng degree from Beihang at 2012. <br />	
-				</p>
-				<p align=left>
-					I am interested in solving image/video processing with principled learning and optimization frameworks. At sensetime, I lead research projects on computational photography, shipping techniques to next-generation products deployed on handheld device.
-				</p>				
-				<p> 
-					This is my detailed <a href="cv.pdf">CV</a>.
-				</p>
-                                <p align=left> 
-					<span style=color:yellow> We are recruiting research/engineering interns with solid mathematical/programming skills. If you are interested, please email your CV to zhangyu1[AT]sensetime[DOT]com.
-				</p>
-				<br />
-				<p align=left>
-					<span style=color:yellow>[2020-07]</span> One paper is accepted by ECCV 2020. <br />
-					<span style=color:yellow>[2020-05]</span> One paper is accepted by IEEE TIP. <br />
-					<span style=color:yellow>[2020-02]</span> One paper is accepted by CVPR 2020. <br />
-					<span style=color:yellow>[2019-11]</span> One paper is accepted by IEEE TPAMI. <br />
-					<span style=color:yellow>[2019-11]</span> One paper is accepted by IEEE TIP. <br />
-					<span style=color:yellow>[2019-07]</span> Two papers are accepted by ICCV 2019 with an oral. <br />
-					<span style=color:yellow>[2019-07]</span> One paper is accepted by ACM MM. <br />
-					<span style=color:yellow>[2019-02]</span> One paper is accepted by CVPR 2019. <br />
-					<span style=color:yellow>[2018-06]</span> We have won the Best Paper Award of CGI 2018! <br />
-					<span style=color:yellow>[2018-06]</span> I have successfully defensed by thesis! <br />
-					<span style=color:yellow>[2018-04]</span> I will join SenseTime Research (Beijing) on July, 2018. <br />
-				</p>
-			</div>
-			<div class="mainText" id="pub">
-				<p>	
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/SPP_ICCV2019.png" height=80 width=200 /></div>
-					<div class="post-content">				
-						<b>Multi-class Part Parsing with Joint Boundary-Semantic Awareness.</b> Yifan Zhao, Jia Li*, <b><u>Yu Zhang*</u></b>, Yonghong Tian. International Conference on Computer Vision, 2019. <span style=color:yellow>(Oral)</span> [PDF] [Bibtex]
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/SOD_ICCV2019.png" height=80 width=200 /></div>
-					<div class="post-content">				
-						<b>Selectivity or Invariance: Boundary-aware Salient Object Detection.</b> Jinming Su, Jia Li, <b><u>Yu Zhang</u></b>, Changqun Xia, Yonghong Tian. International Conference on Computer Vision, 2019. [PDF] [Bibtex]
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/360_MM2019.png" height=80 width=200 /></div>
-					<div class="post-content">				
-						<b>Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images.</b> Jia Li, Kaiwen Yu, Yifan Zhao, <b><u>Yu Zhang</u></b>, Long Xu. ACM Multimedia, 2019. [PDF] [Bibtex]
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/MSACM_CVPR2019.png" height=120 width=200 /></div>
-					<div class="post-content">				
-						<b>Structure-Preserving Stereoscopic View Synthesis with Multi-Scale Adversarial Correlation Matching.</b> <b><u>Yu Zhang</u></b>, Dongqing Zou, Jimmy S. Ren, Zhe Jiang, Xiaohao Chen. IEEE Conference on Computer Vision and Pattern Recognition, 2019. <a href="pdf/MSACM_CVPR19.pdf">[PDF]</a> <a href="bib/MSACM_CVPR19.bib">[Bibtex]</a>
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/3DR_CGI2018.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Real-time 3D Scene Reconstruction with Dynamically Moving Object using a Single Depth Camera.</b> Feixiang Lu, Bin Zhou, <b><u>Yu Zhang</u></b>, Qinping Zhao. International Conference on Computer Graphics, 2019. <span style=color:yellow>(Best Paper Award)</span> <a href="https://link.springer.com/article/10.1007/s00371-018-1540-8">[Publisher's page]</a>
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/SPS_TIP2018.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Exploring Weakly Labeled Images for Video Object Segmentation with Submodular Proposal Selection.</b> <b><u>Yu Zhang</u></b>, Xiaowu Chen, Jia Li, Wei Teng, Haokun Song. IEEE Transactions on Image Processing, 2018. <a href="https://ieeexplore.ieee.org/document/8293849">[Publisher's page]</a>
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/ELE_CVPR2017.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors.</b> Changqun Xia, Jia Li, Xiaowu Chen, Anlin Zheng, <b><u>Yu Zhang</u></b>. IEEE Conference on Computer Vision and Pattern Recognition, 2017. <span style=color:yellow>(Spotlight)</span>  <a href="pdf/ELE_CVPR2017.pdf">[PDF]</a> <a href="bib/ELE_CVPR2017.bib">[Bibtex]</a> 
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/SOS_TPAMI2017.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Semantic Object Segmentation in Tagged Videos via Detection.</b> <b><u>Yu Zhang</u></b>, Xiaowu Chen, Jia Li, Chen Wang, Changqun Xia. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017. <a href="http://ieeexplore.ieee.org/document/7987009">[Publisher's page]</a>
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/LST_BMVC2016.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Local Shape Transfer for Image Co-segmentation.</b> <b><u>Yu Zhang</u></b>, Wei Teng, Xiaowu Chen, Jia Li, Zhiqiang He. British Machine Vision Conference, 2016. <span style=color:yellow>(Oral)</span> <a href="pdf/LST_BMVC2016.pdf">[PDF]</a> <a href="bib/LST_BMVC2016.bib">[Bibtex]</a> 
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/EventSketch_SCIS2016.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>High-level Representation Sketch for Video Event Retrieval.</b> <b><u>Yu Zhang</u></b>, Xiaowu Chen, Liang Lin, Changqun Xia. SCIENCE CHINA Information Sciences, 2016. <a href="https://link.springer.com/article/10.1007%2Fs11432-015-5494-4">[Publisher's page]</a>
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/MWC_ICME2015.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Cuboids Detection in RGB-D Images via Maximum Weighted Clique.</b> Han Zhang, Xiaowu Chen, <b><u>Yu Zhang</u></b>, Jia Li, Qing Li, Xiaogang Wang. International Conference on Multimedia & Expo, 2015. <a href="pdf/MWC_ICME2015.pdf">[PDF]</a> <a href="bib/MWC_ICME2015.bib">[Bibtex]</a> 
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/DOF_BigMM2015.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Fast Estimation of Relative Poses for 6-DOF Image Localization.</b> Yafei Song, Xiaowu Chen, Xiaogang Wang, <b><u>Yu Zhang</u></b>, Jia Li. IEEE International Conference on Multimedia Big Data, 2015. <span style=color:yellow>(Best Paper Award)</span> <a href="pdf/DOF_BigMM2015.pdf">[PDF]</a> <a href="bib/DOF_BigMM2015.bib">[Bibtex]</a>
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/SOS_CVPR2015.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Semantic Object Segmentation via Detection in Weakly Labeled Video.</b> <b><u>Yu Zhang</u></b>, Xiaowu Chen, Jia Li, Chen Wang, Changqun Xia. International Conference on Computer Vision and Pattern Recognition, 2015. <span style=color:yellow>(Oral)</span> <a href="pdf/SOS_CVPR2015.pdf">[PDF]</a> <a href="bib/SOS_CVPR2015.bib">[Bibtex]</a> 
-					</div>
-				</div>
-				<div class="post-container">
-					<div class="post-thumb"><img src="img/GP_TIP2014.png" height=100 width=200 /></div>
-					<div class="post-content">				
-						<b>Geodesic Propagation for Semantic Labeling.</b> Qing Li, Xiaowu Chen, Yafei Song, <b><u>Yu Zhang</u></b>. IEEE Transactions on Image Processing, 2014. <a href="https://ieeexplore.ieee.org/document/6898820/">[Publisher's page]</a>
-					</div>
-				</div>
-				</p>
-			</div>
-			<div class="mainText" id="act">
-				<h3>Activities</h3>
-				<p>
-				<ul>
-					<li>Reviewer for TPAMI, TIP, TMM, CVPR, ICCV, ECCV, ACCV, ISMAR, PRCV </li>
-					<li>Intern at Baidu Research, March-June, 2018
-				</ul>
-				</p>
-			</div>
-			<div class="mainText" id="contact">
-				<h3>Contact</h3>
-				<p>
-					Email: zhangyulb AT gmail DOT com. <br />
-					You can also find me on <a href="https://www.linkedin.com/in/yu-zhang-2471b240">Linkedin</a> and <a href="https://scholar.google.com/citations?user=Nnw2_fEAAAAJ&hl=en">Google Scholar</a>.
-				</p>
-				
-			</div>
-		</div>
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-		<script type="text/javascript" src="./script.js"></script>
-	
-	</body>
+  <title>Yu Zhang</title>
+  
+  <meta name="author" content="Yu Zhang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Yu Zhang</name>
+              </p>
+              <p>I am a senior research scientist at <a href="https://www.sensetime.com/en">SenseTime Research</a>.
+              </p>
+              <p>
+              At SenseTime I work on mobile superresolution, denoising and HDR in <a href="https://www.sensetime.com/en/product-detail?categoryId=1158">SensePhoto</a>. I earned my PhD at <a href="http://scse.buaa.edu.cn/info/1127/2313.htm">Beihang University</a>, where I was advised by <a href="http://scse.buaa.edu.cn/info/1121/2547.htm">Qinping Zhao</a> and <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>. I did postdoc from 2019 to 2021, working with Prof. <a href="https://www.ee.cuhk.edu.hk/~xgwang/">Xiaogang Wang</a> and <a href="http://www.liuyebin.com/">Yebin Liu</a>.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:zhangyulb@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data_zy/YuZhang-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data_zy/YuZhang-bio.txt">Bio</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=Nnw2_fEAAAAJ">Google Scholar</a> 
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images_zy/portrait_circle.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images_zy/portrait_circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I study computer vision, machine learning and image processing. My recent interest lies much in learning-based imaging, domain adaptation and weakly-supervised learning.
+              </p>
+              <p>
+              (<sup>&#8224</sup>interns/students &nbsp *equal contribtuion)
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+                <tr onmouseout="iccm_cvpr21_stop()" onmouseover="iccm_cvpr21_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='iccm_cvpr21_image'><img src="images_zy/iccm_cvpr21_after.png" width="160"></div>
+                <img src='images_zy/iccm_cvpr21_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function iccm_cvpr21_start() {
+                  document.getElementById('iccm_cvpr21_image').style.opacity = "1";
+                }
+
+                function iccm_cvpr21_stop() {
+                  document.getElementById('iccm_cvpr21_image').style.opacity = "0";
+                }
+                iccm_cvpr21_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Informative and Consistent Correspondence Mining for Cross-Domain Weakly Supervised Object Detection</papertitle>
+              <br>
+              Luwei Hou<sup>&#8224</sup>*,
+              <strong>Yu, Zhang*</strong>,
+              Kui Fu,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <br>
+              <em>CVPR</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+
+              <br>
+              <a href="">paper</a>
+              /
+              <a href="">supp.</a>
+              <p>Cross-domain pixel-level correspondences can be learned in weakly supervised manner for object detector adaptation.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="lsde_eccv20_stop()" onmouseover="lsde_eccv20_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='lsde_eccv20_image'><img src="images_zy/lsde_eccv20_after.png" width="160"></div>
+                <img src='images_zy/lsde_eccv20_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lsde_eccv20_start() {
+                  document.getElementById('lsde_eccv20_image').style.opacity = "1";
+                }
+
+                function lsde_eccv20_stop() {
+                  document.getElementById('lsde_eccv20_image').style.opacity = "0";
+                }
+                lsde_eccv20_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Learning to See in the Dark with Events</papertitle>
+              <br>
+              Song Zhang<sup>&#8224</sup>*,
+              <strong>Yu Zhang*</strong>,
+              Zhe Jiang<sup>&#8224</sup>*,
+              <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
+              <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
+              <a href="https://scholar.google.com/citations?user=tG4RnyYAAAAJ&hl=en">Bin Zhou</a>,
+              <br>
+              <em>ECCV</em>, 2020
+              <br>
+              <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630647.pdf">paper</a> /
+              <a href="">code (comming soon)</a>
+              <p>Unpaired image translation from low light to day light can be achieved by the HDR of event streams captured by an event camera. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="mmka_tip20_stop()" onmouseover="mmka_tip20_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_zy/mmka_tip20.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Model-guided Multi-path Knowledge Aggregation for Aerial Saliency Prediction</papertitle>
+              </a>
+              <br>
+              Kui Fu,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <strong>Yu Zhang</strong>,
+              Hongze Shen,
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>,
+              <br>
+              <em>TIP</em>, 2020
+              <br>
+              <a href="http://cvteam.net/papers/2020-TIP-Fu-Model-guided%20Multi-path%20Knowledge%20Aggregation%20for%20Aerial%20Saliency%20Prediction.pdf">paper</a> /
+              <a href="http://gofile.me/4Hwyd/nazC54Ib0">dataset(ID:3yd8,password:cvteam)</a>
+              <p></p>
+              <p>A dataset for aerial saliency detection and how to adapt existing saliency models to this task.</p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="lrfr_tip20_stop()" onmouseover="lrfr_tip20_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_zy/lrfr_tip20.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Efficient Low-resolution Face Recognition via Bridge Ditillation</papertitle>
+              <br>
+              <a href="https://imsg.ac.cn/">Shiming Ge</a>,
+              Shengwei Zhao,
+              Chenyu Li,
+              <strong>Yu Zhang</strong>,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <br>
+              <em>TIP</em>, 2020 
+              <br>
+              <a href="http://cvteam.net/papers/2020-TIP-Efficient%20Low-Resolution%20Face%20Recognition%20via%20Bridge%20Distillation.pdf">paper</a>
+              <p></p>
+              <p>Simply learning feature super-resolution and knowledge distillation in multi-task way produces an accurate face detector capable of processing 763 faces/s on mobile phone.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="lemd_cvpr20_stop()" onmouseover="lemd_cvpr20_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lemd_cvpr20_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images_zy/lemd_cvpr20_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_zy/lemd_cvpr20_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lemd_cvpr20_start() {
+                  document.getElementById('lemd_cvpr20_image').style.opacity = "1";
+                }
+                function lemd_cvpr20_stop() {
+                  document.getElementById('lemd_cvpr20_image').style.opacity = "0";
+                }
+                lemd_cvpr20_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Learning Event-based Motion Deblurring</papertitle>
+              <br>
+              Zhe Jiang<sup>&#8224</sup>*,
+              <strong>Yu Zhang*</strong>,
+              <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
+              <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
+              Xiaohao Chen
+              <br>
+              <em>CVPR</em>, 2020  
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Jiang_Learning_Event-Based_Motion_Deblurring_CVPR_2020_paper.pdf">paper</a> /
+              <a href="">code(coming soon)</a> /
+              <p></p>
+              <p>An end-to-end learning pipeline for motion deblurring with event camera.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="omps_tpami20_stop()" onmouseover="omps_tpami20_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_zy/omps_tpami20.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Ordinal Multi-task Part Segmentation with Recurrent Prior Generation</papertitle>
+              <br>
+              Yifan Zhao,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <strong>Yu Zhang</strong>,
+              <a href="https://scholar.google.com/citations?user=VMO6UOgAAAAJ&hl=en">Yafei Song</a>,
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
+              <br>
+              <em>TPAMI</em>, 2020
+              <br>
+              <a href="http://cvteam.net/papers/2020-TPAMI-Ordinal%20Multi-task%20Part%20Segmentation%20with%20Recurrent%20Prior%20Generation.pdf">paper</a>
+              <p></p>
+              <p>Useful context information can be mined by optimizing the processing order of parts in semantic part parsing.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="mcpp_iccv19_stop()" onmouseover="mcpp_iccv19_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='mcpp_iccv19_image'><img src="images_zy/mcpp_iccv19_after.png" width="160"></div>
+                <img src='images_zy/mcpp_iccv19_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function mcpp_iccv19_start() {
+                  document.getElementById('mcpp_iccv19_image').style.opacity = "1";
+                }
+                function mcpp_iccv19_stop() {
+                  document.getElementById('mcpp_iccv19_image').style.opacity = "0";
+                }
+                mcpp_iccv19_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="http://cvteam.net/projects/2019/multiclass-part.html">
+                  <papertitle>Multi-class Part Parsing with Joint Boundary-Semantic Awareness</papertitle>
+              </a>
+              <br>
+              Yifan Zhao,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <strong>Yu Zhang</strong>,
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
+              <br>
+              <em>ICCV</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="http://cvteam.net/projects/2019/multiclass-part.html">project page</a> /
+              <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhao_Multi-Class_Part_Parsing_With_Joint_Boundary-Semantic_Awareness_ICCV_2019_paper.pdf">paper</a> 
+              <p></p>
+              <p>Semantic part parsing benefits from jointly processing multiple classes by attending to part boundaries and class discrimination.
+              </p>
+            </td>
+          </tr> 
+
+
+          <tr onmouseout="bsod_iccv19_stop()" onmouseover="bsod_iccv19_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='bsod_iccv19_image'><img src="images_zy/bsod_iccv19_after.png" width="160"></div>
+                <img src='images_zy/bsod_iccv19_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function bsod_iccv19_start() {
+                  document.getElementById('bsod_iccv19_image').style.opacity = "1";
+                }
+
+                function bsod_iccv19_stop() {
+                  document.getElementById('bsod_iccv19_image').style.opacity = "0";
+                }
+                nerd_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="http://cvteam.net/projects/ICCV19-SOD/BANet.html">
+                    <papertitle>Selectivity or Invariance: Boundary-aware Salient Object Detection</papertitle>
+              </a>
+              <br>
+              Jinming Su,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <strong>Yu Zhang</strong>,
+              <a href="https://changqunxia.github.io/">Changqun Xia</a>
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
+              <br>
+              <em>ICCV</em>, 2019
+              <br>
+              <a href="http://cvteam.net/projects/ICCV19-SOD/BANet.html">Project</a> /
+              <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Su_Selectivity_or_Invariance_Boundary-Aware_Salient_Object_Detection_ICCV_2019_paper.pdf">Paper</a>
+              <p></p>
+              <p>
+              Modeling the transitions across object boundaries helps salient object segmentation.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="crsqa_mm19_stop()" onmouseover="crsqa_mm19_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='crsqa_mm19_image'><img src="images_zy/crsqa_mm19_after.png" width="160"></div>
+                <img src='images_zy/crsqa_mm19_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function crsqa_mm19_start() {
+                  document.getElementById('crsqa_mm19_image').style.opacity = "1";
+                }
+
+                function crsqa_mm19_stop() {
+                  document.getElementById('crsqa_mm19_image').style.opacity = "0";
+                }
+                nerd_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="http://cvteam.net/projects/MM19-CROSS/MM2019.html"
+                    <papertitle>Cross-Reference Stitching Quality Assessment for 360<sup>&#113813</sup> Omnidirectional Images</papertitle>
+              </a>
+              <br>
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Kaiwen Yu,
+              Yifan Zhao,
+              <strong>Yu Zhang</strong>,
+              <a href="https://scholar.google.com.sg/citations?user=PBqivgkAAAAJ&hl=en">Long Xu</a>
+              <br>
+              <em>ACM MM</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="http://cvteam.net/projects/MM19-CROSS/MM2019.html">Project</a> /
+              <a href="https://arxiv.org/abs/1904.04960">Paper</a>
+              <p></p>
+              <p>
+              A new dataset for omnidirectional image stitching and novel metrics for assessing the quality of related algorithms.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="macm_cvpr19_stop()" onmouseover="macm_cvpr19_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='macm_cvpr19_image'><img src="images_zy/macm_cvpr19_after.png" width="160"></div>
+                <img src='images_zy/macm_cvpr19_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function macm_cvpr19_start() {
+                  document.getElementById('macm_cvpr19_image').style.opacity = "1";
+                }
+                function macm_cvpr19_stop() {
+                  document.getElementById('macm_cvpr19_image').style.opacity = "0";
+                }
+                macm_cvpr19_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Structure-Preserving_Stereoscopic_View_Synthesis_With_Multi-Scale_Adversarial_Correlation_Matching_CVPR_2019_paper.pdf">Structure-Preserving Stereoscopic View Synthesis with Multiscale Adversarial Correlation Matching</a></papertitle>
+              <br>
+              <strong>Yu Zhang</strong>,
+              <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
+              <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
+              Zhe Jiang,
+              Xiaohao Chen
+              <br>
+              <em>CVPR</em>, 2019
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Structure-Preserving_Stereoscopic_View_Synthesis_With_Multi-Scale_Adversarial_Correlation_Matching_CVPR_2019_paper.pdf">paper</a> /
+              <a href="data_zy/macm_cvpr19_supp">supp.</a> 
+              <p></p>
+              <p>Multiscale adversarial training on feature correlations builds unsupervised structural preservation loss for novel view synthesize.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="dmsr_tvc18_stop()" onmouseover="dmsr_tvc18_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dmsr_tvc18_image'>
+                  <img src='images_zy/dmsr_tvc18_after.png' width="160"></div>
+                <img src='images_zy/dmsr_tvc18_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dmsr_tvc18_start() {
+                  document.getElementById('dmsr_tvc18_image').style.opacity = "1";
+                }
+
+                function dmsr_tvc18_stop() {
+                  document.getElementById('dmsr_tvc18_image').style.opacity = "0";
+                }
+                dmsr_tvc18_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Real-time 3D Scene Reconstruction with Dynamically Moving Object using a Single Depth Camera</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=2Kem6bIAAAAJ&hl=zh-CN">Feixiang Lu</a>,
+              <a href="https://scholar.google.com/citations?user=tG4RnyYAAAAJ&hl=en">Bin Zhou</a>,
+              <strong>Yu Zhang</strong>,
+              <a href="http://scse.buaa.edu.cn/info/1121/2547.htm">Qinping Zhao</a>
+              <br>
+              <em>TVC</em>, 2018 &nbsp <font color="red"><strong>(Best Paper Award of CGI 2018)</strong></font>
+ 
+              <br>
+              <a href="https://link.springer.com/article/10.1007/s00371-018-1540-8">paper</a>  / 
+              <p></p>
+              <p>
+              By improving reference frame selection and 6D pose prediction, we reconstruct dynamic objects in real-time while handling large motion.
+              </p>
+            </td>
+          </tr> 
+
+
+          <tr onmouseout="sps_tip18_stop()" onmouseover="sps_tip18_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sps_tip18_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images_zy/sps_tip18_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_zy/sps_tip18_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sps_tip18_start() {
+                  document.getElementById('sps_tip18_image').style.opacity = "1";
+                }
+
+                function sps_tip18_stop() {
+                  document.getElementById('sps_tip18_image').style.opacity = "0";
+                }
+                sps_tip18_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Exploring Weakly Labeled Images for Video Object Segmentation with Submodular Proposal Selection</papertitle>
+              <br>
+              <strong>Yu Zhang</strong>,
+              Xiaowu Chen,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Wei Teng,
+              Haokun Song
+              <br>
+              <em>TIP</em>, 2018
+              <br>
+              <a href="http://cvteam.net/papers/2018_TIP_Zhang-Exploring%20Weakly%20Labeled%20Images%20for%20Video%20Object%20Segmentation%20with%20Submodular%20Proposal%20Selection.pdf">paper</a> /
+              <a href="http://cvteam.net/projects/TIP18-Exploring/TIP2018_results.zip">results</a>
+              <p></p>
+              <p>Modeling object part relations with simple priors enables accurate object localization in videos with weak supervision.
+            </td>
+          </tr> 
+
+          <tr onmouseout="lll_cvpr17_stop()" onmouseover="lll_cvpr17_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lll_cvpr17_image'>
+                  <img src='images_zy/lll_cvpr17_after.png' width="160"></div>
+                <img src='images_zy/lll_cvpr17_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lll_cvpr17_start() {
+                  document.getElementById('lll_cvpr17_image').style.opacity = "1";
+                }
+
+                function lll_cvpr17_stop() {
+                  document.getElementById('lll_cvpr17_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="http://cvteam.net/projects/CVPR17-ELE/ELE.html">
+                <papertitle>What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors</papertitle>
+              </a>
+              <br>
+              <a href="https://changqunxia.github.io/">Changqun Xia</a>,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Xiaowu Chen,
+              Anlin Zheng,
+              <strong>Yu Zhang</strong>
+              <br>
+              <em>CVPR</em>, 2017 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
+              <br>
+              <a href="http://cvteam.net/projects/CVPR17-ELE/ELE.html">project</a> /
+              <a href="http://cvteam.net/papers/2017_CVPR_Xia_What%20is%20and%20What%20is%20not%20a%20salient%20object%20Learning%20Salient%20Object%20Detector%20by%20Ensembling%20Linear%20Exemplar%20Regressors.pdf">paper</a> /
+              <a href="http://cvteam.net/projects/CVPR17-ELE/ELE-Result.zip">results</a>, /
+              <a href="http://cvteam.net/projects/CVPR17-ELE/XPIE.tar.gz">data</a>
+              <p></p>
+              <p>Exemplar detectors are explored to learn instance-specific saliency patterns and a large saliency detection dataset is proposed.</p>
+            </td>
+          </tr> 
+
+    
+          <tr onmouseout="sod_tpami17_stop()" onmouseover="sod_tpami17_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sod_tpami17_image'>
+                  <img src='images_zy/sod_tpami17_after.png' width="160"></div>
+                <img src='images_zy/sod_tpami17_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sod_tpami17_start() {
+                  document.getElementById('sod_tpami17_image').style.opacity = "1";
+                }
+
+                function sod_tpami17_stop() {
+                  document.getElementById('sod_tpami17_image').style.opacity = "0";
+                }
+                sod_tpami17_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Semantic Object Segmentation in Tagged Videos via Detection</papertitle>
+              <br>
+              <strong>Yu Zhang</strong>,
+              Xiaowu Chen,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Chen Wang,
+              <a href="https://changqunxia.github.io/">Changqun Xia</a>,
+              Jun Li
+              <br>
+              <em>TPAMI</em>, 2017
+              <br>
+              <a href="http://cvteam.net/papers/2018_TPAMI_Semantic%20Object%20Segmentation%20in%20Tagged%20Videos%20via%20Detection.pdf">paper</a>
+              <br>
+              <p></p>
+              <p>
+              Extended version of CVPR 2015 with improved network flow solver and object shape prior.
+              </p>
+            </td>
+          </tr>  
+    
+          <tr onmouseout="dof_tmm16_stop()" onmouseover="dof_tmm16_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dof_tmm16_image'>
+                  <img src='images_zy/dof_tmm16_after.png' width="160"></div>
+                <img src='images_zy/dof_tmm16_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dof_tmm16_start() {
+                  document.getElementById('dof_tmm16_image').style.opacity = "1";
+                }
+
+                function dof_tmm16_stop() {
+                  document.getElementById('dof_tmm16_image').style.opacity = "0";
+                }
+                dof_tmm16_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>6-DOF Image Localization from Massive Geo-tagged Reference Images</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=VMO6UOgAAAAJ&hl=en">Yafei Song</a>,
+              Xiaowu Chen,
+              Xiaogang Wang,
+              <strong>Yu Zhang</strong>,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>
+              <br>
+              <em>TMM</em>, 2016 &nbsp <font color="red"><strong>(Best Paper Award of IEEE BigMM 2015)</strong></font>
+              <br>
+              <a href="http://cvteam.net/papers/2016_TMM_6-DOF%20Image%20Localization%20from%20Massive%20Geo-tagged%20Reference%20Images.pdf">paper</a>
+              <p></p>
+              <p>
+              Searching for the posed images with appearance similar to the input image can uniquely determine its pose with fast inference.
+            </td>
+          </tr> 
+
+          <tr onmouseout="lst_bmvc16_stop()" onmouseover="lst_bmvc16_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lst_bmvc16_image'>
+                  <img src='images_zy/lst_bmvc16_after.png' width="160"></div>
+                <img src='images_zy/lst_bmvc16_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lst_bmvc16_start() {
+                  document.getElementById('lst_bmvc16_image').style.opacity = "1";
+                }
+
+                function lst_bmvc16_stop() {
+                  document.getElementById('lst_bmvc16_image').style.opacity = "0";
+                }
+                lst_bmvc16_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Local Shape Transfer for Image Co-segmentation</papertitle>
+              <br>
+              Wei Teng*,
+              <strong>Yu Zhang*</strong>,
+              Xiaowu Chen,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Zhiqiang He
+              <br>
+              <em>BMVC</em>, 2016 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="http://www.bmva.org/bmvc/2016/papers/paper003/paper003.pdf">paper</a> / 
+              <a href="http://www.bmva.org/bmvc/2016/papers/paper003/abstract003.pdf">extended abstract</a>
+              <p></p>
+              <p>Shapes of local image patches lie in low-dimensional manifold, which is a consistency regularizer for image co-segmentation.</p>
+            </td>
+          </tr>  
+
+          <tr onmouseout="mwc_icme15_stop()" onmouseover="mwc_icme15_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mwc_icme15_image'>
+                  <img src='images_zy/mwc_icme15_after.png' width="160"></div>
+                <img src='images_zy/mwc_icme15_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function mwc_icme15_start() {
+                  document.getElementById('mwc_icme15_image').style.opacity = "1";
+                }
+
+                function mwc_icme15_stop() {
+                  document.getElementById('mwc_icme15_image').style.opacity = "0";
+                }
+                mwc_icme15_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Cuboids detection in RGB-D images via maximum weighted clique</papertitle>
+              <br>
+              Han Zhang,
+              Xiaowu Chen,
+              <strong>Yu Zhang</strong>,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Qing Li,
+              Xiaogang Wang
+              <br>
+              <em>ICME</em>, 2015
+              <br>
+              <a href="https://ieeexplore.ieee.org/document/7177405">paper</a> 
+              <p></p>
+              <p>By incorporating global layout consistency modelled with maximum weighted clique, previous detection rate of cuboid proposals in RGBD images is doubled.</p>
+            </td>
+          </tr>  
+
+          <tr onmouseout="sod_cvpr15_stop()" onmouseover="sod_cvpr15_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sod_cvpr15_image'><video width=100% height=100% muted autoplay loop>
+                <source src="images_zy/sod_cvpr15_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_zy/sod_cvpr15_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sod_cvpr15_start() {
+                  document.getElementById('sod_cvpr15_image').style.opacity = "1";
+                }
+
+                function sod_cvpr15_stop() {
+                  document.getElementById('sod_cvpr15_image').style.opacity = "0";
+                }
+                sod_cvpr15_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Semantic Object Segmentation via
+                Detection in Weakly Labeled Video</papertitle>
+              <br>
+              <strong>Yu Zhang</strong>,
+              Xiaowu Chen,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              Chen Wang,
+              <a href="https://changqunxia.github.io/">Changqun Xia</a>
+              <br>
+        <em>CVPR</em>, 2015 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://openaccess.thecvf.com/content_cvpr_2015/papers/Zhang_Semantic_Object_Segmentation_2015_CVPR_paper.pdf">paper</a>
+              <p></p>
+              <p>Weak object detectors can generate strong video object segmentation results via joint inference with a quadratic network flow model.</p>
+            </td>
+          </tr>  
+
+          <tr onmouseout="gp_tip14_stop()" onmouseover="gp_tip14_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gp_tip14_image'><video width=100% height=100% muted autoplay loop>
+                <source src="images_zy/gp_tip14_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_zy/gp_tip14_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gp_tip14_start() {
+                  document.getElementById('gp_tip14_image').style.opacity = "1";
+                }
+
+                function gp_tip14_stop() {
+                  document.getElementById('gp_tip14_image').style.opacity = "0";
+                }
+                gp_tip14_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Geodesic Propagation for Semantic Labeling</papertitle>
+              <br>
+              Qing Li,
+              Xiaowu Chen,
+              <a href="https://scholar.google.com/citations?user=VMO6UOgAAAAJ&hl=en">Yafei Song</a>,
+              <strong>Yu Zhang</strong>
+              <br>
+        <em>TIP</em>, 2014
+              <br>
+              <a href="https://ieeexplore.ieee.org/document/6898820">paper</a>
+              <p></p>
+              <p>We present a fast approach for semantic segmentation by propagating labels along geodesic paths in feature space.</p>
+            </td>
+          </tr>  
+
+
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Much thanks to <a href="https://jonbarron.info/">Jon Barron</a> for sharing this template.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
 </html>
