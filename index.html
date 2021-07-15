@@ -23,7 +23,7 @@
               <p>I am a senior research scientist working at SenseTime Research</a>.
               </p>
               <p>
-              I work on mobile superresolution, denoising and HDR in <a href="https://www.sensetime.com/en/product-detail?categoryId=1158">SensePhoto</a>. I earned my PhD at <a href="http://scse.buaa.edu.cn/info/1127/2313.htm">Beihang University</a>, advised by Prof. <a href="http://scse.buaa.edu.cn/info/1121/2547.htm">Qinping Zhao</a> and Prof. Bin Zhou. I also work closely with Prof. <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>. I did postdoc from 2019 to 2021, advised by Prof. <a href="https://www.ee.cuhk.edu.hk/~xgwang/">Xiaogang Wang</a> and <a href="http://www.liuyebin.com/">Yebin Liu</a>.
+              At SenseTime I work on <a href="https://www.sensetime.com/en/product-detail?categoryId=1158">SensePhoto</a>, the state-of-the-art mobile photography solution dilivered to major smartphone OEMs. I earned my PhD at <a href="http://scse.buaa.edu.cn/info/1127/2313.htm">Beihang University</a>, advised by Prof. <a href="http://scse.buaa.edu.cn/info/1121/2547.htm">Qinping Zhao</a> and Prof. Bin Zhou. I also work as a visiting researcher at CVTEAM led by Prof. <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>. I did postdoc from 2019 to 2021, advised by Prof. <a href="https://www.ee.cuhk.edu.hk/~xgwang/">Xiaogang Wang</a> and <a href="http://www.liuyebin.com/">Yebin Liu</a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:zhangyulb@gmail.com">Email</a> &nbsp/&nbsp
@@ -42,9 +42,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I study computer vision, machine learning and image processing. My recent interest lies much in learning-based imaging, domain adaptation and weakly-supervised learning.
-              </p>
-              <p style="color:#3498D8"> My work at SenseTime Research is on solving industrial research problems and publishing top-tier research papers. If you are finding an internship and this aligns with your career goal, feel free to drop me an email.
+                I study computer vision, machine learning and image processing. My recent interest lies much in learning-based imaging and event-based vision.
               </p>
               <p>
               (<sup>&#8224</sup>interns/students &nbsp *corresponding author)
@@ -53,7 +51,42 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-                <tr onmouseout="iccm_cvpr21_stop()" onmouseover="iccm_cvpr21_start()">
+            <tr onmouseout="letgan_mm21_stop()" onmouseover="letgan_mm21_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='letgan_mm21_image'><img src="images_zy/LETGAN_mm21_after.png" width="160"></div>
+                <img src='images_zy/LETGAN_mm21_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function letgan_mm21_start() {
+                  document.getElementById('letgan_mm21_image').style.opacity = "1";
+                }
+
+                function letgan_mm21_stop() {
+                  document.getElementById('letgan_mm21_image').style.opacity = "0";
+                }
+                letgan_mm21_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>How to Learn a Domain Adaptive Event Simulator?</papertitle>
+              <br>
+              Daxin Gu,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <strong>Yu, Zhang*</strong>,
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
+              <br>
+              <em>ACM MM</em>, 2021 &nbsp 
+
+              <br>
+              <a href="">paper</a>
+              /
+              <a href="">supp.</a>
+              <p>A fully trainable event camera simulator with divide-and-conquer domain adaptation.</p>
+            </td>
+          </tr> 
+
+            <tr onmouseout="iccm_cvpr21_stop()" onmouseover="iccm_cvpr21_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                   <div class="two" id='iccm_cvpr21_image'><img src="images_zy/iccm_cvpr21_after.png" width="160"></div>
@@ -74,16 +107,16 @@
               <papertitle>Informative and Consistent Correspondence Mining for Cross-Domain Weakly Supervised Object Detection</papertitle>
               <br>
               Luwei Hou<sup>&#8224</sup>,
-              <strong>Yu, Zhang*</strong>,
+              <strong>Yu, Zhang<sup>&#8224</sup>*</strong>,
               Kui Fu,
               <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
               <br>
               <em>CVPR</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
 
               <br>
-              <a href="">paper</a>
+              <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Hou_Informative_and_Consistent_Correspondence_Mining_for_Cross-Domain_Weakly_Supervised_Object_CVPR_2021_paper.html">paper</a>
               /
-              <a href="">supp.</a>
+              <a href="data_zy/iccm_cvpr21_supp.pdf">supp.</a>
               <p>Cross-domain pixel-level correspondences can be learned in weakly supervised manner for object detector adaptation.</p>
             </td>
           </tr> 
@@ -109,7 +142,7 @@
               <papertitle>Learning to See in the Dark with Events</papertitle>
               <br>
               Song Zhang<sup>&#8224</sup>,
-              <strong>Yu Zhang*</strong>*,
+              <strong>Yu Zhang*</strong>,
               Zhe Jiang<sup>&#8224</sup>,
               <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
               <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
@@ -118,7 +151,7 @@
               <em>ECCV</em>, 2020
               <br>
               <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630647.pdf">paper</a> /
-              code
+              <a href="https://github.com/zhangsongchn/DVS-Dark/tree/master">code</a>
               <p>Unpaired image translation from low light to day light can be achieved by the HDR of event streams captured by an event camera. </p>
             </td>
           </tr>
@@ -195,7 +228,7 @@
               <papertitle>Learning Event-based Motion Deblurring</papertitle>
               <br>
               Zhe Jiang<sup>&#8224</sup>*,
-              <strong>Yu Zhang*</strong>,
+              <strong>Yu Zhang<sup>&#8224</sup>*</strong>,
               <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
               <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
               Xiaohao Chen
