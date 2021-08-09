@@ -51,6 +51,47 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+           <tr onmouseout="smt_iccv21_stop()" onmouseover="smt_iccv21_start()">
+             <td style="padding:20px;width:25%;vertical-align:middle">
+               <div class="one">
+                 <div class="two" id='smt_iccv21_image'><video width=100% height=100% muted autoplay loop>
+                 <source src="images_zy/smt_iccv21_after.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+                 </video></div>
+                 <img src='images_zy/smt_iccv21_before.png' width="160">
+               </div>
+               <script type="text/javascript">
+                 function smt_iccv21_start() {
+                   document.getElementById('smt_iccv21_image').style.opacity = "1";
+                 }
+
+                 function smt_iccv21_stop() {
+                   document.getElementById('smt_iccv21_image').style.opacity = "0";
+                 }
+                 smt_iccv21_stop()
+               </script>
+             </td>
+             <td style="padding:20px;width:75%;vertical-align:middle">
+                 <papertitle>Event-Guided Unsupervised Video Frame Interpolation with Complementary Appearance Fusion and Subpixel Motion Transformer</papertitle>
+               <br>
+               Zhiyang Yu<sup>&#8224</sup>,
+               <strong>Yu Zhang<sup>*</sup></strong>,
+               Deyuan Liu,
+              <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
+              Xijun Chen,
+              <a href="http://www.liuyebin.com/">Yebin Liu</a>.
+              <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>
+               <br>
+                 <em>ICCV</em>, 2021
+               <br>
+               <a href="">paper</a>/
+               <a href="">supp</a>/
+               <a href="">code</a>
+               <p></p>
+               <p>Using an event camera allows you to train video interpolation models without the need of high frame-rate videos.</p>
+             </td>
+           </tr>  
+
             <tr onmouseout="letgan_mm21_stop()" onmouseover="letgan_mm21_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -71,18 +112,18 @@
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>How to Learn a Domain Adaptive Event Simulator?</papertitle>
               <br>
-              Daxin Gu,
+              Daxin Gu<sup>&#8224</sup>,
               <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
               <strong>Yu, Zhang*</strong>,
               <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
               <br>
-              <em>ACM MM</em>, 2021 &nbsp 
+              <em>ACM MM</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
 
               <br>
               <a href="">paper</a>
               /
               <a href="">supp.</a>
-              <p>A fully trainable event camera simulator with divide-and-conquer domain adaptation.</p>
+              <p>A fully trainable white-box event camera simulator with divide-and-conquer domain adaptation.</p>
             </td>
           </tr> 
 
@@ -109,7 +150,7 @@
               Luwei Hou<sup>&#8224</sup>,
               <strong>Yu, Zhang<sup>&#8224</sup>*</strong>,
               Kui Fu,
-              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>
               <br>
               <em>CVPR</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
 
@@ -146,7 +187,7 @@
               Zhe Jiang<sup>&#8224</sup>,
               <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
               <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
-              <a href="https://scholar.google.com/citations?user=tG4RnyYAAAAJ&hl=en">Bin Zhou</a>,
+              <a href="https://scholar.google.com/citations?user=tG4RnyYAAAAJ&hl=en">Bin Zhou</a>
               <br>
               <em>ECCV</em>, 2020
               <br>
@@ -170,7 +211,7 @@
               <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
               <strong>Yu Zhang</strong>,
               Hongze Shen,
-              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>,
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
               <br>
               <em>TIP</em>, 2020
               <br>
@@ -195,7 +236,7 @@
               Shengwei Zhao,
               Chenyu Li,
               <strong>Yu Zhang</strong>,
-              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>
               <br>
               <em>TIP</em>, 2020 
               <br>
@@ -231,7 +272,8 @@
               <strong>Yu Zhang<sup>&#8224</sup>*</strong>,
               <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
               <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>,
-              Xiaohao Chen
+              Jiancheng Lv,
+              <a href="http://www.liuyebin.com/">Yebin Liu</a>
               <br>
               <em>CVPR</em>, 2020  
               <br>
