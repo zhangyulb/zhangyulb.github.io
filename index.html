@@ -20,7 +20,7 @@
               <p style="text-align:center">
                 <name>Yu Zhang</name>
               </p>
-              <p>I am a senior research scientist working at SenseTime Research</a>.
+              <p>Currently I work as a vice research director with SenseTime Research</a>.
               </p>
               <p>
               At SenseTime I work on <a href="https://www.sensetime.com/en/product-detail?categoryId=1158">SensePhoto</a>, the state-of-the-art mobile photography solution dilivered to major smartphone OEMs. I earned my PhD at <a href="http://scse.buaa.edu.cn/info/1127/2313.htm">Beihang University</a>, advised by Prof. <a href="http://scse.buaa.edu.cn/info/1121/2547.htm">Qinping Zhao</a> and Prof. Bin Zhou. I also work as a visiting researcher at CVTEAM led by Prof. <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>. I did postdoc from 2019 to 2021, advised by Prof. <a href="https://www.ee.cuhk.edu.hk/~xgwang/">Xiaogang Wang</a> and <a href="http://www.liuyebin.com/">Yebin Liu</a>.
@@ -42,7 +42,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I study computer vision, machine learning and image processing. My recent interest lies much in learning-based imaging and event-based vision.
+                I study computer vision, event-based vision, machine learning and optimization. My research lies much in image and video processing and enhancement with learning and optimization methods.
               </p>
               <p>
               (<sup>&#8224</sup>interns/students &nbsp *corresponding author)
@@ -50,6 +50,82 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+           <tr onmouseout="dbvfi_eccv22_stop()" onmouseover="dbvfi_eccv22_start()">
+             <td style="padding:20px;width:25%;vertical-align:center">
+               <div class="one">
+                 <div class="two" id='dbvfi_eccv22_image'><video width=100% height=100% muted autoplay loop>
+                 <source src="images_zy/dbvfi_eccv22_after.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+                 </video></div>
+                 <img src='images_zy/dbvfi_eccv22_before.png' width="160">
+               </div>
+               <script type="text/javascript">
+                 function dbvfi_eccv22_start() {
+                   document.getElementById('dbvfi_eccv22_image').style.opacity = "1";
+                 }
+
+                 function dbvfi_eccv22_stop() {
+                   document.getElementById('dbvfi_eccv22_image').style.opacity = "0";
+                 }
+                 dbvfi_eccv22_stop()
+               </script>
+             </td>
+             <td style="padding:20px;width:75%;vertical-align:middle">
+                 <papertitle>Deep Bayesian Video Frame Interpolation</papertitle>
+               <br>
+               Zhiyang Yu<sup>&#8224</sup>,
+               <strong>Yu Zhang<sup>*</sup></strong>,
+	       Xujie Xiang,
+              <a href="https://cn.linkedin.com/in/dongqing-zou-ab734797">Dongqing Zou</a>,
+              Xijun Chen,
+              <a href="http://www.jimmyren.com/">Jimmy S. Ren</a>
+               <br>
+                 <em>ECCV</em>, 2022
+               <br>
+	       paper 
+	       /
+	       code
+               <p></p>
+               <p>By encoding the VFI prior into a few unfolded, learned gradient descent steps under the Bayesian regularization framework, our new VFI model achieves state-of-the-art results with only half the parameters of existing models, while showing better generalizability.
+             </td>
+           </tr>  
+
+
+            <tr onmouseout="p2p_tpami22_stop()" onmouseover="p2p_tpami22_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="two" id='p2p_tpami22_image'><img src="images_zy/p2p_tpami22.png" width="160"></div>
+                <img src='images_zy/p2p_tpami22.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function p2p_tpami22_start() {
+                  document.getElementById('p2p_tpami22_image').style.opacity = "1";
+                }
+
+                function p2p_tpami22_stop() {
+                  document.getElementById('p2p_tpami22_image').style.opacity = "0";
+                }
+                p2p_tpami22_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>From Pose to Part: Weakly-Supervised Pose Evolution for Human Part Segmentation</papertitle>
+              <br>
+              Yifan Zhao,
+              <a href="http://cvteam.net/members/lijia/upload/index.html">Jia Li</a>,
+              <strong>Yu, Zhang</strong>,
+              <a href="https://www.pkuml.org/staff/yhtian.html">Yonghong Tian</a>
+              <br>
+              <em>IEEE TPAMI</em>, 2022 &nbsp 
+
+              <br>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/35544512/">paper</a>
+              /
+              <a href="">code</a>
+              <p>Accurate human part segmentation can be achieved with carefully designed part priors and boundary-aware evolutions.</p>
+            </td>
+          </tr> 
 
            <tr onmouseout="smt_iccv21_stop()" onmouseover="smt_iccv21_start()">
              <td style="padding:20px;width:25%;vertical-align:middle">
@@ -84,9 +160,8 @@
                <br>
                  <em>ICCV</em>, 2021
                <br>
-               <a href="">paper</a>/
-               <a href="">supp</a>/
-               <a href="">code</a>
+               <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Training_Weakly_Supervised_Video_Frame_Interpolation_With_Events_ICCV_2021_paper.pdf">paper</a>/
+               <a href="https://github.com/YU-Zhiyang/WEVI">code</a>
                <p></p>
                <p>Using an event camera allows you to train video interpolation models without the need of high frame-rate videos.</p>
              </td>
@@ -120,9 +195,9 @@
               <em>ACM MM</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
 
               <br>
-              <a href="">paper</a>
+              <a href="https://dlnext.acm.org/doi/abs/10.1145/3474085.3475229">paper</a>
               /
-              <a href="">supp.</a>
+              <a href="https://github.com/iCVTEAM/LETGAN">code</a>
               <p>A fully trainable white-box event camera simulator with divide-and-conquer domain adaptation.</p>
             </td>
           </tr> 
@@ -802,6 +877,9 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>Former Interns</heading>
             <p>
+	    <strong>Yu Shi</strong>, Undergraduate student from Peking University, internship 2021-2022. Now a graduate student at UCLA.
+	    </p>
+	    <p>
             <strong>Zhe Jiang</strong>, Master student from Sichuan University, intership 2018-2020. <strong>CVPR 2020</strong> and <strong>ECCV 2020</strong>. Now a PhD student at The Hong Kong Polytechnic University.
             </p>
             <p>
